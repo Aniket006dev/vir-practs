@@ -55,6 +55,7 @@ h1, h2, h3 {
     border-radius: 9px;
     cursor: pointer;
     box-shadow: 2px 2px 5px 0px rgba(3, 36, 84, 0.379);
+    font-size: 120%;
 }
 
 .ul li a:hover {
@@ -88,7 +89,7 @@ a .icon{
 }
 
 #title h1.animate {
-    font-size: 100px;
+    font-size: 720%;
     font-weight: bold;
     opacity: 1;
     animation: transform 2s ease-in-out forwards;
