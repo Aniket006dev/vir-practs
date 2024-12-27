@@ -5,7 +5,7 @@
 @keyframes lslidec1{
     0%{
         opacity: 1;
-        transform: translatey(50px);
+        transform: translatey(8%);
     }
     50%{
         opacity: 1;
@@ -22,7 +22,7 @@
 @keyframes lslidec2{
     0%{
         opacity: 0;
-        transform: translatex(250px);
+        transform: translatex(10%);
     }
     50%{
         opacity: 1;
