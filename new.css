@@ -70,7 +70,7 @@ a .icon{
     display: none;
 }
 .container {
-    /* height: 100vh; */
+    height: 100vh;
     box-shadow: inset 400px 50px 100px 50px;
     display: flex;
     justify-content: center;
