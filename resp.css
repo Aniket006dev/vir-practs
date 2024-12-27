@@ -69,7 +69,7 @@
         margin: 0px;
         position: relative;
         width: 100%;
-        height: 100%;
+        height: 100vh;
     }
     
     .imgdiv img {
