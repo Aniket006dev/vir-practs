@@ -125,6 +125,7 @@
     }
     .step{
         margin: 5% 0.1%;
+        align-items: center;
         width: 45%;
         height: fit-content;
         background-image:linear-gradient(rgb(88, 187, 198),rgb(66, 43, 87));
