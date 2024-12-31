@@ -13,7 +13,6 @@
         margin: 0%;
         width: 100%;
         padding: 0%;
-        /* position: sticky; */
     }
     .nav ul{
         gap: 1%;
@@ -30,19 +29,12 @@
         margin-left: auto;
         border: none;
         box-shadow: none;
-        /* margin-top: auto; */
-        /* height: 10%; */
     }
     li a span{
         display: none;
     }
     a .icon{
         display:flex;
-    }
-    h1, h2, h3{
-    
-        /* font-size: xx-small; */
-        /* font-weight: 100; */
     }
     #title h1.animate{
         font-size: 300%;
@@ -57,13 +49,11 @@
     }
     #h3 {
         font-size: 80%;
-        /* display: none; */
     }
     
     .container{
         width: 100%;
         height: 100vh;
-        /* margin: 100% 0; */
     }
     .imgdiv {
         margin: 0px;
@@ -88,10 +78,7 @@
         margin: 0% 15%;
         padding: 2%;
         display: flex;
-        /* grid-template-columns: 120px; */
-        /* gap: 20px; */
         row-gap: 20%;
-        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
 
@@ -100,22 +87,13 @@
         width: 95%;
         height: 100vmin;
         margin: 30% 0%;
-        /* display: flex; */
-        /* justify-content: center;
-        align-items: center; */
     }
     .lc h3{
         font-size:100%;
         padding: 2%;
         margin: 0%;
         text-align: center;
-        /* color: rgb(177, 1, 193);
-        text-shadow: 5px 2px rgb(176, 127, 240); */
-        /* text-decoration: underline; */
-        /* text-decoration-style:dashed; */
         border-bottom: 2% solid;
-        /* color: rgb(122, 12, 239); */
-        /* text-decoration-color: aqua; */
     }
     .lc p{
         padding: 3%;
@@ -124,21 +102,16 @@
         font-size: 75%;
         color: white;
         height: 20%;
-        /* width: 150px; */
     }
     .lc img{
         display: block; 
-        /* margin: 0 auto; */
-        /* padding: 5%; */
         width: 100%; 
-        /* height: 30%; */
-        /* height: max-content; */
         object-fit: contain;
         overflow: hidden;
     }
     
     .lc button {
-        margin: 0 auto;
+        margin: 1.4% auto;
         display: block;
         color: rgb(32, 3, 61);
         padding-bottom: 0.5%;
@@ -148,9 +121,23 @@
         font-weight: bold;
     } 
     .card{
-        /* max-width: min-content; */
-        /* padding: 5px; */
         font-size: 110%;
     }
-    
+    .step{
+        margin: 5% 0.1%;
+        width: 45%;
+        height: fit-content;
+        background-image:linear-gradient(rgb(88, 187, 198),rgb(66, 43, 87));
+        height: 40%;
+        border: none;
+        box-shadow: none;
+    }
+    .step p{
+        font-size: 75%;
+    }
+    .step h6{
+        font-size: 80%;
+        color: aqua;
+        text-shadow: none;
+    }
 }
