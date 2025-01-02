@@ -84,9 +84,10 @@
 
     }
     .lc{
-        width: 95%;
-        height: 100vmin;
-        margin: 30% 0%;
+        /* width: 100%; */
+        height:100vmin;
+        margin: 10% 5%;
+        overflow: hidden;
     }
     .lc h3{
         font-size:100%;
@@ -105,7 +106,7 @@
     }
     .lc img{
         display: block; 
-        width: 100%; 
+        /* width: 50%;  */
         object-fit: contain;
         overflow: hidden;
     }
@@ -127,7 +128,7 @@
         margin: 5% 0.1%;
         align-items: center;
         width: 45%;
-        height: fit-content;
+        height:30px;
         background-image:linear-gradient(rgb(88, 187, 198),rgb(66, 43, 87));
         height: 40%;
         border: none;
@@ -141,4 +142,5 @@
         color: aqua;
         text-shadow: none;
     }
+    
 }

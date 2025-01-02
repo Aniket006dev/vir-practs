@@ -288,15 +288,11 @@ a .icon {
 }
 
 .more {
-    /* margin: 2%; */
-    overflow: hidden;
-    position: relative;
-    height: 90vh;
     background-image: url(cardback.jpg);
+    background-repeat: no-repeat;
 }
 
 .more h3 {
-    /* height: 100; */
     text-align: center;
     z-index: 1000px;
     color: rgb(238, 238, 235);
@@ -307,15 +303,10 @@ a .icon {
     border-bottom: 2px solid;
 }
 
-.step-icon {
-    font-size: 250%;
-    margin: 0% 2%;
-    color: rgb(11, 11, 187);
-}
-
 .guide {
     display: flex;
     justify-content: center;
+    overflow: hidden;
     gap: 1%;
     height: 100%;
 }
@@ -327,9 +318,7 @@ a .icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     width: 350px;
-    height: 40%;
     border: 2px solid;
     box-shadow: 0px 0px 20px rgb(0, 251, 255);
     border-radius: 12px;
@@ -368,13 +357,22 @@ i {
 }
 
 .back {
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0%;
+    object-fit: contain;
 }
 .cardback{
     position: absolute;
     bottom: 0%;
     height: 100%;
     object-fit: contain;
+}
+.cont{
+    z-index: 500;
+    height: 20%;
+    position:relative;
+    color: aliceblue;
+    bottom: 20%;
+    border: 2px solid;
 }
