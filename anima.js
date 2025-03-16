@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const animatedElements = document.querySelectorAll('.container h3, #title h1,.card,.labcard,.lc'); // Select elements to animate
+    const animatedElements = document.querySelectorAll('.container h3, #title h1,.card,.labcard,.lc,.cont,.faq-item'); // Select elements to animate
 
     const applyAnimation = (entries, observer) => {
         entries.forEach(entry => {

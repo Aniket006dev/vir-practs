@@ -101,7 +101,7 @@
         text-align: center;
         font-weight: 100;
         font-size: 75%;
-        color: white;
+        color: rgb(0, 0, 0);
         height: 20%;
     }
     .lc img{
@@ -124,7 +124,7 @@
     .card{
         font-size: 110%;
     }
-    .step{
+    /*.step{
         margin: 5% 0.1%;
         align-items: center;
         width: 45%;
@@ -141,6 +141,56 @@
         font-size: 80%;
         color: aqua;
         text-shadow: none;
+    }  */
+
+    .cont img {
+        /* margin: 0% 50% 0% 50%; */
+        /* margin-right: auto; */
+        display: block;
+        margin: auto;
+        /* position: fixed; */
+        /* height: 50%; */
+        width: 50%;
+        object-fit: contain;
+        /* left: 50%; */
+        /* right: 50%; */
     }
     
+    .cont form {
+        /* font-size: 100%; */
+        border-left: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        /* margin-left: auto; */
+        /* margin-top: auto; */
+        padding: 2%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont {
+        /* text-align: center; */
+        z-index: 500;
+        /* height: 370px; */
+        position: relative;
+        background-color: rgb(103, 75, 107);
+        /* bottom: 20%; */
+        border: 2px solid;
+        width: 85%;
+        overflow: hidden;
+    }
+    .cont .newdiv{
+        display: block;
+        width: 100%;
+    
+    }
+    .fc{
+        margin: 3%;
+        width:auto;
+    }
+    step{
+        scroll-behavior: smooth;
+        overflow: scroll;
+    }
 }
